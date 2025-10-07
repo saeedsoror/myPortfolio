@@ -1,0 +1,68 @@
+@media (min-width:1600px) {
+
+#root {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  text-align: center;  
+  height: 0vh;
+}
+.homeLink{
+  
+  transition: 0.1s;
+  font-size: 17px;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 1.5px;
+  /* display: inline-block; */
+  /* line-height: 1; */
+  /* transform-origin: center; */
+  /* text-align: center; */
+  /* margin-top: 17px; */
+  /* background-color: black; */
+  height: fit-content;
+  
+}
+.myL{
+  text-decoration: none;
+  font-weight: bold;
+  color:#4caf50;
+}
+.myL:hover{
+  color: #8bc34a;
+}
+.myL:active{
+  color: #ffc107;
+} 
+/* clamp(50px, 10vh, 100px) */
+.myNavBar{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  background-color: #363636ff;
+  width: 35vw;
+  height: 3vw ;
+  border-radius: 80px 80px 80px 80px;
+  margin-top: 0;
+  /* position: relative; */
+}
+.myLinks{
+  /* background-color:aliceblue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: fit-content; */
+  /* margin: auto; */
+  gap: 30px;
+}
+.switchClick{
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+/* position: relative; */
+.containerSwitchClick{
+  position: absolute;
+  top: 23px;
+  right: 23px;
+}
+}
