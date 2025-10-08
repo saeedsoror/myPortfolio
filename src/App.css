@@ -42,6 +42,11 @@
   padding : 0;
   position: relative;
 }
+.theNavBarFile{
+  display: flex;
+  justify-content: right;
+  width:100%;
+}
 .myLinks{
   display: flex;
   justify-content: center;

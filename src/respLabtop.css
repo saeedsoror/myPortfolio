@@ -1,4 +1,4 @@
-@media (min-width: 769px) and (max-width: 1750px) {
+@media (min-width: 601px) and (max-width: 1750px) {
   
 #root {
   margin: 0 auto; 
@@ -15,7 +15,7 @@
 .homeLink{
   
   transition: 0.1s;
-  font-size: 1.6vh;
+  font-size: 1.8vh;
   font-family: 'Poppins', sans-serif;
   letter-spacing: 1.5px;
   height: fit-content;
@@ -42,6 +42,11 @@
   margin-top: 10px;
   padding : 0;
   position: relative;
+}
+.theNavBarFile{
+  display: flex;
+  justify-content: right;
+  width:100%;
 }
 .myLinks{
   display: flex;
@@ -178,8 +183,8 @@
 .project{
   background-color: #1E1E1E;
   box-shadow: 0 2px 6px rgba(0,0,0,0.4);
-  height: 25vh;
-  width: 30vh;
+  height: 30vh;
+  width: 35vh;
   margin: 20px;
   border-radius: 10px;
   display: flex;
