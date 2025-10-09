@@ -264,7 +264,8 @@
   transition: transform 0.5s ease;
   transform-origin: center;
   border-radius: 10px;
-  cursor: pointer; 
+  cursor: pointer;
+  object-fit: cover; 
 }
 .imgProject:hover{
   transform: scale(1.1);

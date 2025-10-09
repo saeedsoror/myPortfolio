@@ -6,10 +6,10 @@ export default function MyProjects(){
                 <div className="myProjectsComp">
                     <div className="project">
                         <div className="imgPoject">
-                            <img className="imgProject" src="/imgProjects/2.jpg" alt="" />
+                            <img className="imgProject" src="/imgProjects/3.png" alt="" />
                         </div>
                         <div className="iconsProjects">
-                            <a href="https://getbootstrap.com/" target="_blank" className="linkIcon" ><img className="iconsOneProject" src="/stackIcons/bootstrap.png" alt="" /></a>
+                            {/* <a href="https://getbootstrap.com/" target="_blank" className="linkIcon" ><img className="iconsOneProject" src="/stackIcons/bootstrap.png" alt="" /></a> */}
                             {/* <a href="" className="linkIcon"><img className="iconsOneProject" src="/stackIcons/bootstrap.png" alt="" /></a> */}
                         </div>
                     </div>
