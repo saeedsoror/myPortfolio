@@ -19,7 +19,6 @@
   font-family: 'Poppins', sans-serif;
   letter-spacing: 1.5px;
   height: fit-content;
-  
 }
 .myL{
   text-decoration: none;
@@ -33,6 +32,7 @@
   color: #ffc107;
 }
 .myNavBar{
+  opacity: 0;
   display: flex;
   justify-content: center;
   justify-items: center;
@@ -280,7 +280,7 @@
   display: flex;
   align-items: center; 
   justify-content: center;
-  gap: 5vw;
+  gap: 15vw;
 }
 
 .contactMeTextBottom{
