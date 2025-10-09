@@ -17,17 +17,17 @@ import AboutMe from './AboutMe'
 import MyProjects from './MyProjects'
 import ContactMe from './ContactMe'
 function App() {
-  // const myButton = document.getElementById("myBtn");
-  // let scrolling = document.getElementById("skills").getBoundingClientRect().top;
-  // window.addEventListener("scroll",()=>{
-  //   if(window.scrollY > (scrolling)){
-  //     myButton.style.opacity = 1;
-  //     myButton.style.cursor = "pointer";
-  //   }else{
-  //     myButton.style.opacity = 0;
-  //     myButton.style.cursor = "auto";
-  //   };
-  // });
+  const myButton = document.getElementById("myBtn");
+  let scrolling = document.getElementById("skills").getBoundingClientRect().top;
+  window.addEventListener("scroll",()=>{
+    if(window.scrollY > (scrolling)){
+      myButton.style.opacity = 1;
+      myButton.style.cursor = "pointer";
+    }else{
+      myButton.style.opacity = 0;
+      myButton.style.cursor = "auto";
+    };
+  });
   return (  
     <>
     {/* <div className='all' style={{height: "auto", width: "100%"}}> */}
