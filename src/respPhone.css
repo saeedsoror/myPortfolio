@@ -155,20 +155,15 @@
   animation: scroll 10s linear infinite;
 }
 .theIcon{
-  /* margin: 10vh; */
-  /* width: auto; */
-  margin-left: 0;
-  height: 3vh;
+  height: 3.5vh;
   transition: 0.5s;
 }
-/* .aboutIcons{
-  text-align: center;
-  background-color: #38bdf8;
-  height: fit-content;
+.aboutIcons{
   display: flex;
   justify-content: center;
   align-items: center;
-} */
+  gap: 5vh;
+}
 .TechTitle{
   color: #9F5FFF;
 }
@@ -281,7 +276,7 @@
   display: flex;
   align-items: center; 
   justify-content: center;
-  gap: 15vw;
+  flex-direction: column;
 }
 
 .contactMeTextBottom{

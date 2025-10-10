@@ -25,13 +25,13 @@ export default function About(){
                         <h4 style={{textAlign:"left"}} className="myAbout"><h4 style={{color:"#fde68a",display:"inline"}}>Hi👋</h4>, I'm Saeed a Front End React Developer from Egypt and a university student</h4>
                         <h5 style={{textAlign:"left"}}>I'm currently learning and building projects using modern web technologies.<br />
                      I have a solid foundation in HTML,CSS and Javascript, and I'm actively improving my skills in React, Typescript,and Bootstrap.<br />
-                     I also have a basic understanding of UI design and use tools like figma to work with interface designs and turn them into clean layouts.<br />
                      I'm always excited to learn more, improve my code, and work on real-world projects.</h5>
                     </div>
-                        <img className="line line1"  src="/imgProfile/myImg.jpg" alt="" />
+                        <img className="line line1"  src="/imgProfile/myImg4.jpg" alt="" />
                 </div>
             {/* </div> */}
         {/* </div> */}
         </>
     )
 }
+// I also have a basic understanding of UI design and use tools like figma to work with interface designs and turn them into clean layouts.<br />

@@ -42,7 +42,7 @@ function App() {
       {/* <AboutMe /> */}
       <MyProjects />
       <ContactMe />
-      {/* <button onClick={()=> window.scrollTo({top:0,behavior:'smooth'})} id='myBtn' className='myBtn'>↑</button> */}
+      {/* <button  utton onClick={()=> window.scrollTo({top:0,behavior:'smooth'})} id='myBtn' className='myBtn'>↑</button> */}
       
     {/* </div> */}
     </>
