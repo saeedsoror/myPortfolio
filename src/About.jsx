@@ -27,7 +27,7 @@ export default function About(){
                      I have a solid foundation in HTML,CSS and Javascript, and I'm actively improving my skills in React, Typescript,and Bootstrap.<br />
                      I'm always excited to learn more, improve my code, and work on real-world projects.</h5>
                     </div>
-                        <img className="line line1"  src="/imgProfile/myImg4.jpg" alt="" />
+                        {/* <img className="line line1"  src="/imgProfile/myImg4.jpg" alt="" /> */}
                 </div>
             {/* </div> */}
         {/* </div> */}
