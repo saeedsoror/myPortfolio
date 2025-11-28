@@ -4,16 +4,15 @@ export default function MyProjects(){
             <div id="projects" className="projectsBox">
                 <h4 className="myProjectsText">Projects</h4>
                 <div className="myProjectsComp">
-                    <div className="project">
-                        <div className="imgPoject">
-                            <img className="imgProject" src="/imgProjects/3.png" alt="" />
-                        </div>
+                    <a target="_blank" href="https://weather-app-ya99.vercel.app/" className="project">
+                            <img className="imgProject" src="/myProjectsPhoto/firstProject.png" alt="" />
+                            <p className="projectDes">Responsive Weather App build for both mobile and desktop screens, with a more polished layout on desktop view.</p>    
                         <div className="iconsProjects">
-                            {/* <a href="https://getbootstrap.com/" target="_blank" className="linkIcon" ><img className="iconsOneProject" src="/stackIcons/bootstrap.png" alt="" /></a> */}
-                            {/* <a href="" className="linkIcon"><img className="iconsOneProject" src="/stackIcons/bootstrap.png" alt="" /></a> */}
+                            <a href="https://react.dev/" target="_blank" className="linkIcon" ><img className="iconsOneProject" src="/stackIcons/physics.png" alt="" /></a>
+                            <a href="https://www.typescriptlang.org/" target="_blank" className="linkIcon" ><img className="iconsOneProject" src="/stackIcons/typescript.png" alt="" /></a>
+                            <a href="https://www.typescriptlang.org/" target="_blank" className="linkIcon" ><img className="iconsOneProject" src="/stackIcons/css-3.png" alt="" /></a>
                         </div>
-                    </div>
-                    {/* <div className="project"></div> */}
+                    </a>
                 </div>
             </div>
         </>
