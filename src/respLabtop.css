@@ -131,14 +131,10 @@
   animation: scroll 10s linear infinite;
 }
 .theIcon{
-  /* margin-right: 10px; */
-  /* width: auto; */
-  /* margin-left: 0; */
   height: 3.5vh;
   transition: 0.5s;
 }
 .aboutIcons{
-  /* background-color: #1E1E1E; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -148,13 +144,12 @@
   color: #9F5FFF;
 }
 .contTechTitle{
-  margin-top: 20vh;
+  margin-top: 30vh;
   display: flex;
   flex-direction: column;
   height: 100%;
   justify-content: center;
   align-items: center;
-
 }
 .stackIcon{
   height: 3vw;
@@ -230,6 +225,7 @@
   opacity: 0;
   transform: translateY(10px);
   transition: opacity 0.3s ease, transform 0.3s ease;
+  color: silver;
 }
 .project:hover .projectDes{
   opacity: 1;
@@ -255,12 +251,6 @@
   border-radius: 10px;
   cursor: pointer;
   margin: auto; 
-}
-.imgProject:hover{
-  transform: scale(1.1);
-  .projectDes{
-    background-color: #9F5FFF;
-  }
 }
 .contactMeBox{
   width: 100%;
