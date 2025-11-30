@@ -4,7 +4,7 @@ import { useEffect } from "react";
 export default function TechStack(){
     useEffect(()=>{
         AOS.init({duration : 1000})
-    },[])
+    },[]);
     return(
         <>
           <div id="skills" className="contTechTitle">

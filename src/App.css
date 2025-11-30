@@ -192,6 +192,10 @@
   flex-direction: column;
   overflow: hidden;
   position: relative;
+  transition: transform 0.3s;
+}
+.project:hover{
+  transform: translateY(-15px) !important;
 }
 .myProjectsComp{
   display: flex;
