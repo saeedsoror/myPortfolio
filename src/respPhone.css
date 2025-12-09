@@ -118,7 +118,7 @@
   border-radius: 50%;
   text-align: center;
   order: 1;
-  margin-bottom: 30vh;
+  margin-bottom: 5vh;
 }
 .allInfo{
   height: fit-content;
@@ -229,6 +229,7 @@
 }
 .myProjectsComp{
   display: flex;
+  flex-direction: column;
 }
 .iconsProjects{
   width: 100%;
@@ -238,6 +239,8 @@
   align-items: center;
   position: absolute;
   bottom: 0;
+  justify-content: center;
+  gap: 15px;
 }
 .linkIcon{
   height: 50%;
